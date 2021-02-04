@@ -38,9 +38,9 @@ public class UsingConstructors {
 		// id and name as a attributes 
 		class Student { 
 		  
-		    public int id; 
-		    public String name; 
-		    public String[] Names;
+		    private int id; 
+		    private String name; 
+		  private String[] Names;
 		  
 		    // Student class constructor 
 		    Student(int id, String name,String[] names) 
